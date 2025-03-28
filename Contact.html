@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.O - Arcade Games</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header class="Head">
+        <img src="assets\svgs\logo.svg" alt="Golds of Old Logo" class="logo">
+    </header>
+    <header class="Menu">
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">HOME</a></li>
+                <li><a href="EmulatorPage.html">EMULATORS</a></li>
+                <li class="dropdown">
+                    <a href="#genre" id="genre-btn">GENRES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Run & Gun</a></li>
+                        <li><a href="#">Fighting</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Platformer</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://goldsofoldarcade.blogspot.com/">BLOG</a></li>
+            </ul>
+        </nav>
+        
+        <div class="NavRight">
+            <div class="SearchIcon">
+                <input type="text" id="search-box" placeholder="Search games..." class="hidden">
+                <a href="#" class="SearchIcon" id="search-toggle">
+                    <img src="assets/svgs/search icon.svg" alt="Search">
+                </a>
+            </div>
+            <a href="SignInPage.html" class="SignIn">
+                <img src="assets/svgs/signinbar.svg" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    </header>
+    
+
+    <div class="contact-container">
+        <h2>CONTACT US</h2>
+        <form id="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email*">
+            </div>
+            <textarea id="message" placeholder="Message*"></textarea>
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+
+    <footer class="Footer">
+        <div class="FooterContainer">
+            <!--img src="assets/svgs/Golds of Old.svg" alt="G.O.O Logo" class="FooterLogo"-->
+            <div class="Socials">
+                <span>FOLLOW US</span>
+                <a href="#"><img src="assets/svgs/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets/svgs/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="assets/svgs/twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <footer>
+        <nav id="FootInfo">
+            <ul>
+                <li><a href="Homepage.html">HOME</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
+                <li><a href="Contact.html">CONTACT US</a></li>
+                <li><a href="Privacy.html">PRIVACY</a></li>
+                <li><a href="Terms.html">TERMS</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="Contact.js"></script>
+</body>
+</html>
