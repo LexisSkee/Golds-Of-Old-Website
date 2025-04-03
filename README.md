@@ -15,6 +15,9 @@ Golds Of Old (G.O.O!) is an arcade gaming website designed to provide gamers wit
 ## About the Project
 Golds Of Old (G.O.O!) is developed as part of a Web Design course to explore the implementation of modern web development techniques in gaming platforms. The project aims to enhance user experience, integrate responsive design, and create a central hub for arcade gaming enthusiasts.
 
+## Website Figma Design
+- **Click Here**: https://www.figma.com/design/Dhb7IsaeBC6Z6XIY4AsnMD/Golds-Of-Old?node-id=0-1&t=mqTs09mn9GAdchgU-1
+
 ## Student Information
 - **Student Name**: Hassan Luri Nansia
 - **Index Number**: UEB1102823
