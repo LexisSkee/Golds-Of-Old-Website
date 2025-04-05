@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.O - Arcade Games</title>
+    <link rel="stylesheet" href="/styles/EmulatorPage.css">
+</head>
+<body>
+    <header class="Head">
+        <img src="\assets\svgs\logo.svg" alt="Golds of Old Logo" class="logo">
+    </header>
+    <header class="Menu">
+        <nav>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/EmulatorPage.html">EMULATORS</a></li>
+                <li class="dropdown">
+                    <a href="#genre" id="genre-btn">GENRES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Run & Gun</a></li>
+                        <li><a href="#">Fighting</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Platformer</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://goldsofoldarcade.blogspot.com/">BLOG</a></li>
+            </ul>
+        </nav>
+        
+        <div class="NavRight">
+            <div class="SearchIcon">
+                <input type="text" id="search-box" placeholder="Search games..." class="hidden">
+                <a href="#" class="SearchIcon" id="search-toggle">
+                    <img src="/assets/svgs/search icon.svg" alt="Search">
+                </a>
+            </div>
+            <a href="/pages/SignInPage.html" class="SignIn">
+                <img src="/assets/svgs/signinbar.svg" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    
+         <!-- Emulators Cards Container -->
+    <section id="games">
+        <h2 class="SectionLabel" >EMULATORS</h2>
+        <div class="game-list">
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\nintendo.png">
+                <h3>NINTENDO</h3>
+                <a href="/pages/Nintendo.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\playstation.png">
+                <h3>PLAY STATION</h3>
+                <a href="/pages/Play.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\sega.png">
+                <h3>SEGA GENESIS</h3>
+                <a href="/pages/Sega.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\xbox.png">
+                <h3>XBOX</h3>
+                <a href="/pages/Xbox.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\gba.png">
+                <h3>GBA</h3>
+                <a href="/pages/Gba.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\Mame.png">
+                <h3>MAME</h3>
+                <a href="/pages/Mame.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\atari.png">
+                <h3>ATARI</h3>
+                <a href="/pages/Atari.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\capcom.jpeg">
+                <h3>CAPCOM</h3>
+                <a href="/pages/Capcom.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\gamegear.png">
+                <h3>GAME GEAR</h3>
+                <a href="/pages/Gamegear.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="\assets\logos\Emulator Covers\gamecube.png">
+                <h3>GAME CUBE</h3>
+                <a href="/pages/Gamecube.html" class="download-btn">DOWNLOAD</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="Footer">
+        <div class="FooterContainer">
+            <!--img src="assets/svgs/Golds of Old.svg" alt="G.O.O Logo" class="FooterLogo"-->
+            <div class="Socials">
+                <span>FOLLOW US</span>
+                <a href="#"><img src="/assets/svgs/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="/assets/svgs/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="/assets/svgs/twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <footer>
+        <nav id="FootInfo">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/About.html">ABOUT US</a></li>
+                <li><a href="/pages/Contact.html">CONTACT US</a></li>
+                <li><a href="/pages/Privacy.html">PRIVACY</a></li>
+                <li><a href="/pages/Terms.html">TERMS</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="/scripts/EmulatorPage.js"></script>
+</body>
+</html>

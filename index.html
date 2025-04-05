@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.O - Arcade Games</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="Head">
+        <img src="\assets\svgs\logo.svg" alt="Golds of Old Logo" class="logo">
+    </header>
+    <header class="Menu">
+        <nav>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/EmulatorPage.html">EMULATORS</a></li>
+                <li class="dropdown">
+                    <a href="#genre" id="genre-btn">GENRES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                        <li><a href="#">Platformer</a></li>
+                        <li><a href="#">RPG</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://goldsofoldarcade.blogspot.com/">BLOG</a></li>
+            </ul>
+        </nav>
+        
+        <div class="NavRight">
+            <div class="SearchIcon">
+                <input type="text" id="search-box" placeholder="Search games..." class="hidden">
+                <a href="#" class="SearchIcon" id="search-toggle">
+                    <img src="/assets/svgs/search icon.svg" alt="Search">
+                </a>
+            </div>
+            <a href="/pages/SignInPage.html" class="SignIn">
+                <img src="/assets/svgs/signinbar.svg" alt="User Icon">
+            </a>
+        </div>
+    </header>
+
+                <!-- SLIDER CARDS -->
+                <section id="games">
+                    <h2 class="slidelabel">FEATURING</h2>
+                    <div class="slidercontainer">
+                        <button class="prev">&#10094;</button>
+                        <div class="slider-wrapper">
+                            <div class="slider-track">
+                                <div class="slider-item">
+                                    <img class="slides" src="/assets/logos/Popular/MetalSlug/MetalLogo.jpeg">
+                                    <a href="/pages/Metal.html" class="slide-btn">SEE MORE</a>
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slides" src="assets\logos\Mega man.jpeg">
+                                    <a href="/pages/Street.html" class="slide-btn">SEE MORE</a>
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slides" src="assets\logos\Contra.jpeg">
+                                    <a href="/pages/Mortal.html" class="slide-btn">SEE MORE</a>
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slides" src="assets\logos\Bomberman.jpeg">
+                                    <a href="/pages/Pacman.html" class="slide-btn">SEE MORE</a>
+                                </div>
+                                <div class="slider-item">
+                                    <img class="slides" src="assets\logos\Hydro Thunder.jpeg">
+                                    <a href="/pages/Galaga.html" class="slide-btn">SEE MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </section>
+
+         <!-- POPULAR Game Cards Container -->
+    <section id="games">
+        <h2 class="SectionLabel" >POPULAR GAMES</h2>
+        <div class="game-list">
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\MetalSlug\MetalLogo.jpeg">
+                <h3>Metal Slug</h3>
+                <p>Run & Gun</p>
+                <a href="/pages/Metal.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\StreetFighter\StreetLogo.jpeg">
+                <h3>Street Fighter</h3>
+                <p>Fighter</p>
+                <a href="/pages/Street.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\MortalKombat\MortalLogo.jpeg">
+                <h3>Mortal Kombat</h3>
+                <p>Fighter</p>
+                <a href="/pages/Mortal.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\Pacman\PacLogo.jpeg">
+                <h3>Pacman</h3>
+                <p>Maze</p>
+                <a href="/pages/Pacman.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\Galaga\GalagaLogo.jpeg">
+                <h3>Galaga</h3>
+                <p>Shooter</p>
+                <a href="/pages/Galaga.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\DonkeyLogo.jpeg">
+                <h3>Donkey Kong</h3>
+                <p>Adventure</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\HouseLogo.jpeg">
+                <h3>House Of The Dead</h3>
+                <p>Horror</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Popular\TetrisLogo.jpeg">
+                <h3>Tetris</h3>
+                <p>Puzzle</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Contra.jpeg">
+                <h3>Contra</h3>
+                <p>Shooter</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Bomberman.jpeg">
+                <h3>Bomber-Man</h3>
+                <p>Adventure</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+        </div>
+        <h3 class="More"><a class="MoreLink" href="/pages/PopularPage.html">VIEW MORE</a></h4>
+    </section>
+
+     <!-- MUST HAVE Game Cards Container -->
+    <section id="games">
+        <h2 class="SectionLabel">Must Have Games</h2>
+        <div class="game-list">
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\Tekken\TekLogo.jpeg">
+                <h3>Tekken</h3>
+                <p>Fighter</p>
+                <a href="/pages/TekkenDwn.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\Timecrisis\TimeLogo.jpeg">
+                <h3>Time Crisis</h3>
+                <p>Shooter</p>
+                <a href="/pages/Time.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\Outrun\OutLogo.jpeg">
+                <h3>Outrun</h3>
+                <p>Racing</p>
+                <a href="/pages/Outrun.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\MarvelCapcom\MarvLogo.jpeg">
+                <h3>Marvle vs CapCom</h3>
+                <p>Fighter</p>
+                <a href="/pages/Marvel.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\Daytona\DayLogo.jpeg">
+                <h3>Daytona</h3>
+                <p>Racing</p>
+                <a href="/pages/Daytona.html" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\FinalLogo.jpeg">
+                <h3>Final Fight</h3>
+                <p>Shooter</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\NBALogo.jpeg">
+                <h3>NBA Jam</h3>
+                <p>Sports</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Must Have\SpaceLogo.jpeg">
+                <h3>Space Invaders</h3>
+                <p>Shooter</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Mega man.jpeg">
+                <h3>Mega Man</h3>
+                <p>Adventure</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+            <div class="game-item">
+                <img class="gold"src="assets\logos\Hydro Thunder.jpeg">
+                <h3>Hydro Thunder</h3>
+                <p>Racing</p>
+                <a href="#" class="download-btn">DOWNLOAD</a>
+            </div>
+        </div>
+        <h3 class="More"><a href="/pages/MustHave.html">VIEW MORE</a></h4>
+    </section>
+
+
+    <footer class="Footer">
+        <div class="FooterContainer">
+            <!--img src="assets/svgs/Golds of Old.svg" alt="G.O.O Logo" class="FooterLogo"-->
+            <div class="Socials">
+                <span>FOLLOW US</span>
+                <a href="#"><img src="assets/svgs/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets/svgs/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="assets/svgs/twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <footer>
+        <nav id="FootInfo">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/About.html">ABOUT US</a></li>
+                <li><a href="/pages/Contact.html">CONTACT US</a></li>
+                <li><a href="/pages/Privacy.html">PRIVACY</a></li>
+                <li><a href="/pages/Terms.html">TERMS</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

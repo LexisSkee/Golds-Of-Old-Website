@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.O - Arcade Games</title>
+    <link rel="stylesheet" href="/styles/Games.css">
+</head>
+<body>
+    <header class="Head">
+        <img src="\assets\svgs\logo.svg" alt="Golds of Old Logo" class="logo">
+    </header>
+    <header class="Menu">
+        <nav>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/EmulatorPage.html">EMULATORS</a></li>
+                <li class="dropdown">
+                    <a href="#genre" id="genre-btn">GENRES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Run & Gun</a></li>
+                        <li><a href="#">Fighting</a></li>
+                        <li><a href="#">RPG</a></li>
+                        <li><a href="#">Platformer</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://goldsofoldarcade.blogspot.com/">BLOG</a></li>
+            </ul>
+        </nav>
+        
+        
+        <div class="NavRight">
+            <div class="SearchIcon">
+                <input type="text" id="search-box" placeholder="Search games..." class="hidden">
+                <a href="#" class="SearchIcon" id="search-toggle">
+                    <img src="/assets/svgs/search icon.svg" alt="Search">
+                </a>
+            </div>
+            <a href="/pages/SignInPage.html" class="SignIn">
+                <img src="/assets/svgs/signinbar.svg" alt="User Icon">
+            </a>
+        </div>
+    </header>
+    
+    <div class="game-container">
+        <h2 class="game-title">OUTRUN</h2>
+        <div class="game-content">
+            <div class="game-images">
+                <img src="\assets\logos\Must Have\Outrun\OutCover.jpeg" alt="Outrun Cover" class="cover">
+                <img src="\assets\logos\Must Have\Outrun\OutPlay.jpeg" alt="Outrun Gameplay" class="gameplay">
+            </div>
+            <div class="game-info">
+                <p><span class="icon"><img src="\assets\svgs\rating.svg" alt="rating"></span></p>
+                <p><span class="icon"><img src="\assets\svgs\review.svg" alt="review"></span></p>
+                <p><span class="icon"><img src="\assets\svgs\download.svg" alt="downloads"></span></p>
+                <p><span class="icon"><img src="\assets\svgs\storage.svg" alt="storage"></span></p>
+                <p><span class="icon"><img src="\assets\svgs\tag.svg" alt="tag"></span></p>
+                <button class="download-btn"><img src="\assets\svgs\download.svg" alt="rating">DOWNLOAD</button>
+                <button class="emulator-btn"><img src="\assets\svgs\emulators.svg" alt="rating">EMULATOR</button>
+            </div>
+            <div class="icontext">
+                <p>7.5</p>
+                <p>101</p>
+                <p>188M</p>
+                <p>86 mb</p>
+                <p>Racing</p>
+            </div>
+        </div>
+        <div class="synopsis">
+            <h3>Synopsis:</h3>
+            <p>
+                Players control a red Ferrari Testarossa, driven by a man with a female passenger.
+                The goal is to race against the clock through branching tracks, avoiding traffic 
+                and obstacles while reaching one of five possible endings. Unlike traditional racing
+                games, OutRun focuses on the thrill of driving rather than competition.
+                The game features multiple routes, allowing players to choose different paths at each
+                checkpoint, leading to varied scenery such as beaches, deserts, and mountain roads. 
+                Its smooth sprite scaling and dynamic music selection (players can pick from tracks 
+                like Magical Sound Shower) set it apart from other racing games of the time.                
+                OutRun became one of the most influential arcade racers, spawning sequels like OutRun 
+                2 and inspiring countless racing games.
+            </p>
+        </div>
+    </div>
+
+
+
+    <footer class="Footer">
+        <div class="FooterContainer">
+            <!--img src="assets/svgs/Golds of Old.svg" alt="G.O.O Logo" class="FooterLogo"-->
+            <div class="Socials">
+                <span>FOLLOW US</span>
+                <a href="#"><img src="/assets/svgs/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="/assets/svgs/youtube.svg" alt="YouTube"></a>
+                <a href="#"><img src="/assets/svgs/twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <footer>
+        <nav id="FootInfo">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/pages/About.html">ABOUT US</a></li>
+                <li><a href="/pages/Contact.html">CONTACT US</a></li>
+                <li><a href="/pages/Privacy.html">PRIVACY</a></li>
+                <li><a href="/pages/Terms.html">TERMS</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="/scripts/Games.js"></script>
+</body>
+</html>
