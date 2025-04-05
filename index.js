@@ -131,3 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Auto-slide every 3 seconds
     setInterval(() => moveSlide("next"), 3000);
 });
+
+
+

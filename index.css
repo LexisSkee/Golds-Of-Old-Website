@@ -6,13 +6,13 @@ body {
     color: white;
 }
 
-.Logo{
+/* .Logo{
     width: 150px;
     height: 150px;
     margin: 0;
     padding: 0;
     display: flex;    
-}
+} */
 
 
 .Menu {
@@ -351,3 +351,5 @@ footer {
     padding: 10px;
     background: #1e1e1e;
 }
+
+
